@@ -1,10 +1,17 @@
 plugins {
-	id 'org.springframework.boot' version '2.1.6.RELEASE'
 	id 'java'
+	id 'org.springframework.boot' version '2.1.6.RELEASE' apply false
+	id 'io.spring.dependency-management' version '1.0.8.RELEASE' 
 }
 
 apply plugin: 'war'
 apply plugin: 'io.spring.dependency-management'
+
+dependencyManagement {
+	imports {
+		mavenBom org.springframework.boot.gradle.plugin.SpringBootPlugin.BOM_COORDINATES
+	}
+}
 
 group = 'com.msh'
 version = '0.0.1-SNAPSHOT'
@@ -17,10 +24,15 @@ configurations {
 	}
 }
 
+jar {
+	enabled = true
+}
 
-
-war {
-    baseName = 'bookbank'
+bootJar {
+	classifier = 'boot'
+	mainClassName = 'com.msh.bookbank.BookbankApplication'
+	excludeDevtools = false
+	launchScript()
 }
 
 repositories {
