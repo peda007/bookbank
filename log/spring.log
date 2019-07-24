@@ -1,0 +1,299 @@
+2019-07-24 22:39:06.278  INFO 30068 --- [restartedMain] com.msh.bookbank.BookbankApplication     : Starting BookbankApplication on DESKTOP-FF54HTE with PID 30068 (C:\Users\moon\git\repository\bookbank\bin\main started by moon in C:\Users\moon\git\repository\bookbank)
+2019-07-24 22:39:06.280  INFO 30068 --- [restartedMain] com.msh.bookbank.BookbankApplication     : No active profile set, falling back to default profiles: default
+2019-07-24 22:39:06.313  INFO 30068 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-24 22:39:06.313  INFO 30068 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-07-24 22:39:06.954  INFO 30068 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-24 22:39:07.044  INFO 30068 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 83ms. Found 3 repository interfaces.
+2019-07-24 22:39:07.345  INFO 30068 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7b737e2e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-24 22:39:07.606  INFO 30068 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-07-24 22:39:07.625  INFO 30068 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-24 22:39:07.625  INFO 30068 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-24 22:39:08.001  INFO 30068 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-07-24 22:39:08.009  INFO 30068 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-24 22:39:08.010  INFO 30068 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1697 ms
+2019-07-24 22:39:08.226  INFO 30068 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-07-24 22:39:08.338  INFO 30068 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-07-24 22:39:08.642  INFO 30068 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-24 22:39:08.777  INFO 30068 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-07-24 22:39:08.778  INFO 30068 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-07-24 22:39:08.979  INFO 30068 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-07-24 22:39:09.236  INFO 30068 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-07-24 22:39:09.839  INFO 30068 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-24 22:39:09.875  INFO 30068 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-24 22:39:10.397  INFO 30068 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/css/**'], []
+2019-07-24 22:39:10.398  INFO 30068 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/js/**'], []
+2019-07-24 22:39:10.398  INFO 30068 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/image/**'], []
+2019-07-24 22:39:10.398  INFO 30068 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/vendor/**'], []
+2019-07-24 22:39:10.429  INFO 30068 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@46cbf29a, org.springframework.security.web.context.SecurityContextPersistenceFilter@53bbfe54, org.springframework.security.web.header.HeaderWriterFilter@5f9b3ca5, org.springframework.security.web.csrf.CsrfFilter@7ec7237b, org.springframework.security.web.authentication.logout.LogoutFilter@467ba80e, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@438b6696, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@134840c2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@ae2163b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@60f76055, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5756fc73, org.springframework.security.web.session.SessionManagementFilter@6a20f63d, org.springframework.security.web.access.ExceptionTranslationFilter@45b3db1c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@658d5e3c]
+2019-07-24 22:39:10.612  INFO 30068 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-24 22:39:10.653  WARN 30068 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-24 22:39:10.903  INFO 30068 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-24 22:39:10.905  INFO 30068 --- [restartedMain] com.msh.bookbank.BookbankApplication     : Started BookbankApplication in 4.883 seconds (JVM running for 5.588)
+2019-07-24 22:39:12.029  INFO 30068 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-24 22:39:12.031  INFO 30068 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-07-24 22:39:12.041  INFO 30068 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2019-07-24 22:39:17.211  INFO 30068 --- [http-nio-8080-exec-10] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-07-24 22:39:24.404  INFO 30068 --- [http-nio-8080-exec-8] com.msh.bookbank.util.HttpUtil           : [HTTP Util Request GET URL] https://dapi.kakao.com/v3/search/book?query=%EB%AF%B8%EC%9B%80%EB%B0%9B%EC%9D%84+%EC%9A%A9%EA%B8%B0&page=1
+2019-07-24 22:39:25.002  INFO 30068 --- [http-nio-8080-exec-8] com.msh.bookbank.util.HttpUtil           : [HTTP Util Response Code] 200
+2019-07-24 22:39:25.006  INFO 30068 --- [http-nio-8080-exec-8] com.msh.bookbank.util.HttpUtil           : [HTTP Util Response Body] {"documents":[{"authors":["기시미 이치로","고가 후미타케"],"contents":"그의 고민에 “인간은 변할 수 있고, 누구나 행복해 질 수 있다. 단 그러기 위해서는 ‘용기’가 필요하다”고 말한 철학자가 있다. 바로 프로이트, 융과 함께 ‘심리학의 3대 거장’으로 일컬어지고 있는 알프레드 아들러다.  『미움받을 용기』는 아들러 심리학에 관한 일본의 1인자 철학자 기시미 이치로와 베스트셀러 작가인 고가 후미타케의 저서로, 아들러의 심리학을 ‘대화체’로 쉽고 맛깔나게 정리하고 있다. 아들러 심리학을 공부한 철학자와 세상에 부정적이고 열등감","datetime":"2014-11-17T00:00:00.000+09:00","isbn":"8996991341 9788996991342","price":14900,"publisher":"인플루엔셜","sale_price":13410,"status":"정상판매","thumbnail":"https://search1.kakaocdn.net/thumb/R120x174.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F1467038%3Ftimestamp%3D20190130053906","title":"미움받을 용기","translators":["전경아"],"url":"https://search.daum.net/search?w=bookpage\u0026bookId=1467038\u0026q=%EB%AF%B8%EC%9B%80%EB%B0%9B%EC%9D%84+%EC%9A%A9%EA%B8%B0"},{"authors":["기시미 이치로","고가 후미타케"],"contents":"이미 이 시대의 고전이 된 책! 2015년, 2016년, 2017년 압도적 인기의 인문 교양서 시리즈를 한 권으로 만난다!  역대 최장기간 연속 베스트셀러 1위의 『미움받을 용기』와 출간 한 달 만에 15만 부 판매의 『미움받을 용기 2』를 동시에 만나는 단 한 번의 기회!  인간은 누구나 변할 수 있고 행복해질 수 있다. 그러기 위해서 필요한 건 오직 용기뿐이다. 자유로워질 용기, 행복해질 용기, 그리고 사랑할 용기. 자유와 행복, 사랑과 진정한","datetime":"2018-03-02T00:00:00.000+09:00","isbn":"1186560657 9791186560655","price":19800,"publisher":"인플루엔셜","sale_price":17820,"status":"정상판매","thumbnail":"https://search1.kakaocdn.net/thumb/R120x174.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F1630448%3Ftimestamp%3D20190131094230","title":"미움받을 용기(특별 합본호)(한정판)(양장본 HardCover)","translators":["전경아"],"url":"https://search.daum.net/search?w=bookpage\u0026bookId=1630448\u0026q=%EB%AF%B8%EC%9B%80%EB%B0%9B%EC%9D%84+%EC%9A%A9%EA%B8%B0%28%ED%8A%B9%EB%B3%84+%ED%95%A9%EB%B3%B8%ED%98%B8%29%28%ED%95%9C%EC%A0%95%ED%8C%90%29%28%EC%96%91%EC%9E%A5%EB%B3%B8+HardCover%29"},{"authors":["기시미 이치로"],"contents":"","datetime":"2017-09-01T00:00:00.000+09:00","isbn":"7111495489 9787111495482","price":27500,"publisher":"기계공업출판사","sale_price":24750,"status":"정상판매","thumbnail":"","title":"피토염적용기(미움받을 용기)","translators":[],"url":"https://search.daum.net/search?w=bookpage\u0026bookId=3445642\u0026q=%ED%94%BC%ED%86%A0%EC%97%BC%EC%A0%81%EC%9A%A9%EA%B8%B0%28%EB%AF%B8%EC%9B%80%EB%B0%9B%EC%9D%84+%EC%9A%A9%EA%B8%B0%29"},{"authors":["기시미 이치로","고가 후미타케"],"contents":"그의 고민에 “인간은 변할 수 있고, 누구나 행복해 질 수 있다. 단 그러기 위해서는 ‘용기’가 필요하다”고 말한 철학자가 있다. 바로 프로이트, 융과 함께 ‘심리학의 3대 거장’으로 일컬어지고 있는 알프레드 아들러다.  『미움받을 용기』는 아들러 심리학에 관한 일본의 1인자 철학자 기시미 이치로와 베스트셀러 작가인 고가 후미타케의 저서로, 아들러의 심리학을 ‘대화체’로 쉽고 맛깔나게 정리하고 있다. 아들러 심리학을 공부한 철학자와 세상에 부정적이고 열등감","datetime":"2014-12-11T00:00:00.000+09:00","isbn":" 9788996991359","price":11900,"publisher":"인플루엔셜","sale_price":-1,"status":"정상판매","thumbnail":"https://search1.kakaocdn.net/thumb/R120x174.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F4591723%3Ftimestamp%3D20190301161244","title":"미움받을 용기","translators":["전경아"],"url":"https://search.daum.net/search?w=bookpage\u0026bookId=4591723\u0026q=%EB%AF%B8%EC%9B%80%EB%B0%9B%EC%9D%84+%EC%9A%A9%EA%B8%B0"},{"authors":["야마키 슈 (감수)"],"contents":"제시합니다.  ‘친구들이 날 단톡방에서 왕따 시켰어요!’, ‘엄마가 하나부터 열까지 다 간섭해서 짜증이 나요.’, ‘꿈이 없으면 안 되나요?’ 등 아이들이 일상생활에서 겪는 다양한 문제들을 구체적인 사례로 다루고 있어 그것을 자신에게 적용하고 용기를 얻는 데 직접적인 도움을 줍니다. 아이들의 고민과 아들러 선생님이 제시하는 해결 방법을 ‘만화’와 ‘Q\u0026amp;A’, ‘메신저’ 등과 같은 다양한 방식으로 보여 주어 각각의 상황에 좀 더 쉽게 공감하고 이해할 수 있도록 했습니다","datetime":"2018-08-31T00:00:00.000+09:00","isbn":"8955824653 9788955824650","price":12000,"publisher":"길벗어린이","sale_price":10800,"status":"정상판매","thumbnail":"https://search1.kakaocdn.net/thumb/R120x174.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F3751093","title":"아들러 선생님 고민있어요!(양장본 HardCover)","translators":["전경아"],"url":"https://search.daum.net/search?w=bookpage\u0026bookId=3751093\u0026q=%EC%95%84%EB%93%A4%EB%9F%AC+%EC%84%A0%EC%83%9D%EB%8B%98+%EA%B3%A0%EB%AF%BC%EC%9E%88%EC%96%B4%EC%9A%94%21%28%EC%96%91%EC%9E%A5%EB%B3%B8+HardCover%29"},{"authors":["기시미 이치로"],"contents":"『엄마를 위한 미움받을 용기』는 기시미 이치로가 자신의 육아 경험을 살려 ‘교육’이라는 주제로 아들러의 심리학을 풀어 쓴 책이다. 실제로 기시미 이치로는 7년 반 동안 아이들을 직접 보육원에 데려다주고 오는 일을 하였는데, 그때 생생하게 경험하고 느낀 부분을 아들러의 심리학과 접목시켜 진정한 부모 자녀 관계는 무엇인지, 자녀를 기르는 부모의 행복은 어디에 있는지를 찾고 실질적이고 구체적인 방법을 소개한다.  가령, 저자는 아들러의 심리학에서 가장 중요","datetime":"2015-06-22T00:00:00.000+09:00","isbn":"1157950531 9791157950539","price":14000,"publisher":"스타북스","sale_price":12600,"status":"정상판매","thumbnail":"https://search1.kakaocdn.net/thumb/R120x174.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F1581343%3Ftimestamp%3D20190131020231","title":"엄마를 위한 미움받을 용기","translators":["김현정"],"url":"https://search.daum.net/search?w=bookpage\u0026bookId=1581343\u0026q=%EC%97%84%EB%A7%88%EB%A5%BC+%EC%9C%84%ED%95%9C+%EB%AF%B8%EC%9B%80%EB%B0%9B%EC%9D%84+%EC%9A%A9%EA%B8%B0"},{"authors":["고가 후미타케"],"contents":"고가 후미타케는 그의 대표작인 《미움받을 용기》를 쓴 같은 해에 작가로서 그 구성력을 인정받아 비즈니스서 대상 심사위원특별상을 수상했다. 『작가의 문장수업』은 그가 15년 동안 현장에서 몸소 겪으며 터득한 글쓰기 노하우를 담아낸 책이다. 글을 잘 쓰고자 하는 마음가짐은 제쳐두고, 실전에서 당장 도움이 되는 조언을 ‘리듬’, ‘구성’, ‘편집’을 주제로 강의 형식으로 정리했다.  저자는 글쓰기를 ‘작가의 머릿속에 맴도는 이야깃거리가 번역 완성되는 일","datetime":"2015-09-02T00:00:00.000+09:00","isbn":"8969520937 9788969520937","price":3600,"publisher":"경향BP","sale_price":3240,"status":"정상판매","thumbnail":"https://search1.kakaocdn.net/thumb/R120x174.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F949019%3Ftimestamp%3D20190126045910","title":"작가의 문장수업(미움받을 용기 고가 후미타케)","translators":["정연주"],"url":"https://search.daum.net/search?w=bookpage\u0026bookId=949019\u0026q=%EC%9E%91%EA%B0%80%EC%9D%98+%EB%AC%B8%EC%9E%A5%EC%88%98%EC%97%85%28%EB%AF%B8%EC%9B%80%EB%B0%9B%EC%9D%84+%EC%9A%A9%EA%B8%B0+%EA%B3%A0%EA%B0%80+%ED%9B%84%EB%AF%B8%ED%83%80%EC%BC%80%29"},{"authors":["기시미 이치로"],"contents":"『아들러 심리학을 읽는 밤』은 아들러 심리학에 관한 일본의 1인자 철학자 기시미 이치로와 베스트셀러 작가인 고가 후미타케가 공저한 《미움받을 용기》의 원전이 된 책이다. 저자 기시미 이치로가 우연히 아들러 심리학에 빠져들게 되면서 깨닫게 된 지식과 통찰, 그리고 수많은 상담을 통해 얻은 임상 경험과 사례들 중에서 ‘정수’만을 정리해서 명쾌하게 설명하고 있다.  그렇다면 왜 지금 아들러일까? 아들러를 흔히 ‘용기의 심리학자’라고 부르는 데서 그 이유를","datetime":"2015-01-15T00:00:00.000+09:00","isbn":"8952230647 9788952230645","price":13800,"publisher":"살림","sale_price":12420,"status":"정상판매","thumbnail":"https://search1.kakaocdn.net/thumb/R120x174.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F635470%3Ftimestamp%3D20190124032830","title":"아들러 심리학을 읽는 밤","translators":["박재현"],"url":"https://search.daum.net/search?w=bookpage\u0026bookId=635470\u0026q=%EC%95%84%EB%93%A4%EB%9F%AC+%EC%8B%AC%EB%A6%AC%ED%95%99%EC%9D%84+%EC%9D%BD%EB%8A%94+%EB%B0%A4"},{"authors":["알프레드 아들러"],"contents":"아들러가 말하는 ‘용기’가 이 시대를 사는 독자들에게 힘을 발휘하는 까닭은, 용기를 갖고 주체적으로 세상을 살아나가는 방법을 탐구하는 것이 바로 아들러 자신의 문제였기 때문이다. 아들러는 자신이 겪은 그 아픔을 자신만의 경험으로 축소시키지 않고 사회 전반의 관심사로 확장하였다.  아들러는 “난 오늘부터 용기 있는 사람이 될 거야”라고 다짐한다고 해서 쉽게 그 힘을 갖게 되는 것이 아니라는 점을 잘 알았다. 아들러는 건강한 삶을 살기 위해 자기 삶의","datetime":"2015-10-20T00:00:00.000+09:00","isbn":"1157790380 9791157790388","price":16000,"publisher":"스마트북","sale_price":14400,"status":"정상판매","thumbnail":"https://search1.kakaocdn.net/thumb/R120x174.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F1577785%3Ftimestamp%3D20190131012431","title":"오늘을 살아갈 용기 아들러 심리학","translators":["유진상"],"url":"https://search.daum.net/search?w=bookpage\u0026bookId=1577785\u0026q=%EC%98%A4%EB%8A%98%EC%9D%84+%EC%82%B4%EC%95%84%EA%B0%88+%EC%9A%A9%EA%B8%B0+%EC%95%84%EB%93%A4%EB%9F%AC+%EC%8B%AC%EB%A6%AC%ED%95%99"},{"authors":["기시미 이치로"],"contents":"그의 고민에 “인간은 변할 수 있고, 누구나 행복해 질 수 있다. 단 그러기 위해서는 ‘용기’가 필요하다”고 말한 철학자가 있다. 바로 프로이트, 융과 함께 ‘심리학의 3대 거장’으로 일컬어지고 있는 알프레드 아들러다. 『미움받을 용기』는 아들러 심리학에 관한 일본의 1인자 철학자 기시미 이치로와 베스트셀러 작가인 고가 후미타케의 저서로, 아들러의 심리학을 ‘대화체’로 쉽고 맛깔나게 정리하고 있다. 아들러 심리학을 공부한 철학자와 세상에 부정적이고 열등감 많은","datetime":"2015-04-09T00:00:00.000+09:00","isbn":" 480D150405880","price":0,"publisher":"인플루엔셜","sale_price":-1,"status":"","thumbnail":"https://search1.kakaocdn.net/thumb/R120x174.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F4397724%3Ftimestamp%3D20190228152712","title":"[samPle] 미움받을 용기","translators":[],"url":"https://search.daum.net/search?w=bookpage\u0026bookId=4397724\u0026q=%5BsamPle%5D+%EB%AF%B8%EC%9B%80%EB%B0%9B%EC%9D%84+%EC%9A%A9%EA%B8%B0"}],"meta":{"is_end":false,"pageable_count":13,"total_count":14}}
+2019-07-24 22:48:52.542  INFO 30068 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-07-24 22:48:52.545  INFO 30068 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-24 22:48:52.547  INFO 30068 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-07-24 22:48:52.554  INFO 30068 --- [RMI TCP Connection(2)-127.0.0.1] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-199]
+2019-07-24 22:48:52.555  INFO 30068 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-07-24 22:48:52.556  INFO 30068 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-07-24 22:59:17.026  INFO 24344 --- [restartedMain] com.msh.bookbank.BookbankApplication     : Starting BookbankApplication on DESKTOP-FF54HTE with PID 24344 (C:\Users\moon\git\repository\bookbank\bin\main started by moon in C:\Users\moon\git\repository\bookbank)
+2019-07-24 22:59:17.029  INFO 24344 --- [restartedMain] com.msh.bookbank.BookbankApplication     : No active profile set, falling back to default profiles: default
+2019-07-24 22:59:17.063  INFO 24344 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-24 22:59:17.063  INFO 24344 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-07-24 22:59:17.680  INFO 24344 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-24 22:59:17.756  INFO 24344 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 71ms. Found 3 repository interfaces.
+2019-07-24 22:59:18.017  INFO 24344 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bbccf171] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-24 22:59:18.246  INFO 24344 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-07-24 22:59:18.264  INFO 24344 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-24 22:59:18.264  INFO 24344 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-24 22:59:18.472  INFO 24344 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-07-24 22:59:18.481  INFO 24344 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-24 22:59:18.482  INFO 24344 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1419 ms
+2019-07-24 22:59:18.608  INFO 24344 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-07-24 22:59:18.682  INFO 24344 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-07-24 22:59:18.770  INFO 24344 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-24 22:59:18.824  INFO 24344 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-07-24 22:59:18.824  INFO 24344 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-07-24 22:59:18.925  INFO 24344 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-07-24 22:59:19.056  INFO 24344 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-07-24 22:59:19.579  INFO 24344 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-24 22:59:19.606  INFO 24344 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-24 22:59:20.005  INFO 24344 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/css/**'], []
+2019-07-24 22:59:20.006  INFO 24344 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/js/**'], []
+2019-07-24 22:59:20.007  INFO 24344 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/image/**'], []
+2019-07-24 22:59:20.007  INFO 24344 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/vendor/**'], []
+2019-07-24 22:59:20.030  INFO 24344 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@753ad805, org.springframework.security.web.context.SecurityContextPersistenceFilter@edd6688, org.springframework.security.web.header.HeaderWriterFilter@2a94757e, org.springframework.security.web.csrf.CsrfFilter@4d7c83f7, org.springframework.security.web.authentication.logout.LogoutFilter@10da0e90, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7c38ea55, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2e30938b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7cae8250, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3e843f2e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4e1dfe78, org.springframework.security.web.session.SessionManagementFilter@122f83ee, org.springframework.security.web.access.ExceptionTranslationFilter@2ce29b1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6f76ce6e]
+2019-07-24 22:59:20.169  INFO 24344 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-24 22:59:20.199  WARN 24344 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-24 22:59:20.375  INFO 24344 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-24 22:59:20.377  INFO 24344 --- [restartedMain] com.msh.bookbank.BookbankApplication     : Started BookbankApplication in 3.597 seconds (JVM running for 4.295)
+2019-07-24 22:59:23.271  INFO 24344 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-24 22:59:23.276  INFO 24344 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-07-24 22:59:23.285  INFO 24344 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2019-07-24 22:59:31.906  INFO 24344 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-07-24 22:59:31.908  INFO 24344 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-24 22:59:31.909  INFO 24344 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-07-24 22:59:31.913  INFO 24344 --- [RMI TCP Connection(2)-127.0.0.1] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-199]
+2019-07-24 22:59:31.914  INFO 24344 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-07-24 22:59:31.915  INFO 24344 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-07-24 23:37:01.246  WARN 18688 --- [main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/moon/.gradle/caches/modules-2/files-2.1/org.json/json/20180813/8566b2b0391d9d4479ea225645c6ed47ef17fe41/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/moon/.gradle/caches/modules-2/files-2.1/com.vaadin.external.google/android-json/0.0.20131108.vaadin1/fa26d351fe62a6a17f5cda1287c1c6110dec413f/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2019-07-24 23:37:01.262  INFO 18688 --- [main] com.msh.bookbank.repository.TrafficTest  : Starting TrafficTest on DESKTOP-FF54HTE with PID 18688 (started by moon in C:\Users\moon\git\repository\bookbank)
+2019-07-24 23:37:01.263  INFO 18688 --- [main] com.msh.bookbank.repository.TrafficTest  : No active profile set, falling back to default profiles: default
+2019-07-24 23:37:02.048  INFO 18688 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-24 23:37:02.192  INFO 18688 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 133ms. Found 3 repository interfaces.
+2019-07-24 23:37:02.661  INFO 18688 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a40a1be6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-24 23:37:02.901  INFO 18688 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-07-24 23:37:03.116  INFO 18688 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-07-24 23:37:03.202  INFO 18688 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-24 23:37:03.273  INFO 18688 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-07-24 23:37:03.275  INFO 18688 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-07-24 23:37:03.426  INFO 18688 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-07-24 23:37:03.751  INFO 18688 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-07-24 23:37:04.474  INFO 18688 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-24 23:37:07.079  INFO 18688 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/css/**'], []
+2019-07-24 23:37:07.080  INFO 18688 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/js/**'], []
+2019-07-24 23:37:07.081  INFO 18688 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/image/**'], []
+2019-07-24 23:37:07.081  INFO 18688 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/vendor/**'], []
+2019-07-24 23:37:07.081  INFO 18688 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/console/**'], []
+2019-07-24 23:37:08.050  INFO 18688 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@56c42964, org.springframework.security.web.context.SecurityContextPersistenceFilter@1552da16, org.springframework.security.web.header.HeaderWriterFilter@4228f269, org.springframework.security.web.csrf.CsrfFilter@37c2f0b4, org.springframework.security.web.authentication.logout.LogoutFilter@108b121f, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@57c6feea, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@c732e1c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@77ce88c4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@37fef327, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@211a9647, org.springframework.security.web.session.SessionManagementFilter@775f15fd, org.springframework.security.web.access.ExceptionTranslationFilter@46b6701e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@677cc4e8]
+2019-07-24 23:37:11.057  INFO 18688 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-24 23:37:11.266  WARN 18688 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-24 23:37:12.830  INFO 18688 --- [main] com.msh.bookbank.repository.TrafficTest  : Started TrafficTest in 11.836 seconds (JVM running for 12.783)
+2019-07-24 23:37:14.293  INFO 18688 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-07-24 23:37:15.115  WARN 18688 --- [pool-1-thread-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 90121, SQLState: 90121
+2019-07-24 23:37:15.117 ERROR 18688 --- [pool-1-thread-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-199]
+2019-07-24 23:37:15.121  WARN 18688 --- [pool-1-thread-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 90121, SQLState: 90121
+2019-07-24 23:37:15.121 ERROR 18688 --- [pool-1-thread-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-199]
+2019-07-24 23:37:15.131  WARN 18688 --- [pool-1-thread-6] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 42102, SQLState: 42S02
+2019-07-24 23:37:15.131 ERROR 18688 --- [pool-1-thread-6] o.h.engine.jdbc.spi.SqlExceptionHelper   : Table "KEYWORD" not found; SQL statement:
+select keywordvo0_.keyword_seq as keyword_1_0_, keywordvo0_.cnt as cnt2_0_, keywordvo0_.keyword as keyword3_0_ from keyword keywordvo0_ where keywordvo0_.keyword=? [42102-199]
+2019-07-24 23:37:15.127  WARN 18688 --- [pool-1-thread-4] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 42102, SQLState: 42S02
+2019-07-24 23:37:15.126  WARN 18688 --- [pool-1-thread-3] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 42102, SQLState: 42S02
+2019-07-24 23:37:15.162 ERROR 18688 --- [pool-1-thread-3] o.h.engine.jdbc.spi.SqlExceptionHelper   : Table "KEYWORD" not found; SQL statement:
+select keywordvo0_.keyword_seq as keyword_1_0_, keywordvo0_.cnt as cnt2_0_, keywordvo0_.keyword as keyword3_0_ from keyword keywordvo0_ where keywordvo0_.keyword=? [42102-199]
+2019-07-24 23:37:15.133 ERROR 18688 --- [pool-1-thread-4] o.h.engine.jdbc.spi.SqlExceptionHelper   : Table "KEYWORD" not found; SQL statement:
+select keywordvo0_.keyword_seq as keyword_1_0_, keywordvo0_.cnt as cnt2_0_, keywordvo0_.keyword as keyword3_0_ from keyword keywordvo0_ where keywordvo0_.keyword=? [42102-199]
+2019-07-24 23:37:15.124  WARN 18688 --- [pool-1-thread-5] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 42102, SQLState: 42S02
+2019-07-24 23:37:15.123  WARN 18688 --- [pool-1-thread-2] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 90121, SQLState: 90121
+2019-07-24 23:37:15.123  WARN 18688 --- [pool-1-thread-13] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 90121, SQLState: 90121
+2019-07-24 23:37:15.122  WARN 18688 --- [pool-1-thread-10] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 90121, SQLState: 90121
+2019-07-24 23:37:15.169 ERROR 18688 --- [pool-1-thread-13] o.h.engine.jdbc.spi.SqlExceptionHelper   : Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-199]
+2019-07-24 23:37:15.122  WARN 18688 --- [pool-1-thread-8] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 90121, SQLState: 90121
+2019-07-24 23:37:15.218 ERROR 18688 --- [pool-1-thread-8] o.h.engine.jdbc.spi.SqlExceptionHelper   : Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-199]
+2019-07-24 23:37:15.122  WARN 18688 --- [pool-1-thread-7] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 90121, SQLState: 90121
+2019-07-24 23:37:15.187  INFO 18688 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-24 23:37:15.221 ERROR 18688 --- [pool-1-thread-7] o.h.engine.jdbc.spi.SqlExceptionHelper   : Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-199]
+2019-07-24 23:37:15.169 ERROR 18688 --- [pool-1-thread-10] o.h.engine.jdbc.spi.SqlExceptionHelper   : Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-199]
+2019-07-24 23:37:15.227  INFO 18688 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-07-24 23:37:15.189 ERROR 18688 --- [pool-1-thread-1] o.s.t.i.TransactionInterceptor           : Application exception overridden by rollback exception
+
+org.springframework.dao.DataAccessResourceFailureException: could not prepare statement; nested exception is org.hibernate.exception.JDBCConnectionException: could not prepare statement
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:275) ~[spring-orm-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:253) ~[spring-orm-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:527) ~[spring-orm-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61) ~[spring-tx-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:242) ~[spring-tx-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:153) ~[spring-tx-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:138) ~[spring-data-jpa-2.1.9.RELEASE.jar:2.1.9.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93) ~[spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.data.repository.core.support.SurroundingTransactionDetectorMethodInterceptor.invoke(SurroundingTransactionDetectorMethodInterceptor.java:61) ~[spring-data-commons-2.1.9.RELEASE.jar:2.1.9.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212) ~[spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at com.sun.proxy.$Proxy106.findByKeyword(Unknown Source) ~[na:na]
+	at com.msh.bookbank.service.KeywordService.getKeyword(KeywordService.java:36) ~[main/:na]
+	at com.msh.bookbank.service.SearchHistoryService.saveHistory(SearchHistoryService.java:47) ~[main/:na]
+	at com.msh.bookbank.service.SearchHistoryService$$FastClassBySpringCGLIB$$6fde9412.invoke(<generated>) ~[main/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749) ~[spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) [spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:295) ~[spring-tx-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98) [spring-tx-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688) [spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at com.msh.bookbank.service.SearchHistoryService$$EnhancerBySpringCGLIB$$5354d407.saveHistory(<generated>) [main/:na]
+	at com.msh.bookbank.repository.TrafficTest.lambda$1(TrafficTest.java:47) [test/:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:1.8.0_181]
+	at java.lang.Thread.run(Unknown Source) ~[na:1.8.0_181]
+Caused by: org.hibernate.exception.JDBCConnectionException: could not prepare statement
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:48) ~[hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:42) ~[hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113) ~[hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$StatementPreparationTemplate.prepareStatement(StatementPreparerImpl.java:182) ~[hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.prepareQueryStatement(StatementPreparerImpl.java:148) ~[hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.loader.Loader.prepareQueryStatement(Loader.java:1984) ~[hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1914) ~[hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1892) ~[hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.loader.Loader.doQuery(Loader.java:937) ~[hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:340) ~[hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.loader.Loader.doList(Loader.java:2689) ~[hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.loader.Loader.doList(Loader.java:2672) ~[hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2506) ~[hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.loader.Loader.list(Loader.java:2501) ~[hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.loader.hql.QueryLoader.list(QueryLoader.java:504) ~[hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.list(QueryTranslatorImpl.java:395) ~[hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.engine.query.spi.HQLQueryPlan.performList(HQLQueryPlan.java:220) ~[hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.internal.SessionImpl.list(SessionImpl.java:1508) ~[hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.query.internal.AbstractProducedQuery.doList(AbstractProducedQuery.java:1537) ~[hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.query.internal.AbstractProducedQuery.list(AbstractProducedQuery.java:1505) ~[hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.query.internal.AbstractProducedQuery.getSingleResult(AbstractProducedQuery.java:1553) ~[hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.query.criteria.internal.compile.CriteriaQueryTypeQueryAdapter.getSingleResult(CriteriaQueryTypeQueryAdapter.java:109) ~[hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$SingleEntityExecution.doExecute(JpaQueryExecution.java:221) ~[spring-data-jpa-2.1.9.RELEASE.jar:2.1.9.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:91) ~[spring-data-jpa-2.1.9.RELEASE.jar:2.1.9.RELEASE]
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:136) ~[spring-data-jpa-2.1.9.RELEASE.jar:2.1.9.RELEASE]
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:125) ~[spring-data-jpa-2.1.9.RELEASE.jar:2.1.9.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:605) ~[spring-data-commons-2.1.9.RELEASE.jar:2.1.9.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lambda$invoke$3(RepositoryFactorySupport.java:595) ~[spring-data-commons-2.1.9.RELEASE.jar:2.1.9.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:595) ~[spring-data-commons-2.1.9.RELEASE.jar:2.1.9.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:59) ~[spring-data-commons-2.1.9.RELEASE.jar:2.1.9.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:295) ~[spring-tx-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98) [spring-tx-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139) ~[spring-tx-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	... 24 common frames omitted
+Caused by: org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-199]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:617) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:427) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.message.DbException.get(DbException.java:205) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.message.DbException.get(DbException.java:181) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.message.DbException.get(DbException.java:170) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1571) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1547) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:347) ~[h2-1.4.199.jar:1.4.199]
+	at com.zaxxer.hikari.pool.ProxyConnection.prepareStatement(ProxyConnection.java:311) ~[HikariCP-3.2.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyConnection.prepareStatement(HikariProxyConnection.java) ~[HikariCP-3.2.0.jar:na]
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$5.doPrepare(StatementPreparerImpl.java:146) ~[hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$StatementPreparationTemplate.prepareStatement(StatementPreparerImpl.java:172) ~[hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	... 56 common frames omitted
+
+2019-07-24 23:37:15.186  WARN 18688 --- [pool-1-thread-3] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 42102, SQLState: 42S02
+2019-07-24 23:37:15.329 ERROR 18688 --- [pool-1-thread-3] o.h.engine.jdbc.spi.SqlExceptionHelper   : Table "KEYWORD" not found; SQL statement:
+select keywordvo0_.keyword_seq as keyword_1_0_, keywordvo0_.cnt as cnt2_0_, keywordvo0_.keyword as keyword3_0_ from keyword keywordvo0_ where keywordvo0_.keyword=? [42102-199]
+2019-07-24 23:37:15.230  INFO 18688 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-07-24 23:37:15.186  WARN 18688 --- [pool-1-thread-13] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 90121, SQLState: 90121
+2019-07-24 23:37:15.331 ERROR 18688 --- [pool-1-thread-13] o.h.engine.jdbc.spi.SqlExceptionHelper   : Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-199]
+2019-07-24 23:37:15.167 ERROR 18688 --- [pool-1-thread-2] o.h.engine.jdbc.spi.SqlExceptionHelper   : Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-199]
+2019-07-24 23:37:15.165 ERROR 18688 --- [pool-1-thread-5] o.h.engine.jdbc.spi.SqlExceptionHelper   : Table "KEYWORD" not found; SQL statement:
+select keywordvo0_.keyword_seq as keyword_1_0_, keywordvo0_.cnt as cnt2_0_, keywordvo0_.keyword as keyword3_0_ from keyword keywordvo0_ where keywordvo0_.keyword=? [42102-199]
+2019-07-24 23:37:15.160  WARN 18688 --- [pool-1-thread-12] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 42102, SQLState: 42S02
+2019-07-24 23:37:15.333 ERROR 18688 --- [pool-1-thread-12] o.h.engine.jdbc.spi.SqlExceptionHelper   : Table "KEYWORD" not found; SQL statement:
+select keywordvo0_.keyword_seq as keyword_1_0_, keywordvo0_.cnt as cnt2_0_, keywordvo0_.keyword as keyword3_0_ from keyword keywordvo0_ where keywordvo0_.keyword=? [42102-199]
+2019-07-24 23:37:15.157  WARN 18688 --- [pool-1-thread-15] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 42102, SQLState: 42S02
+2019-07-24 23:37:15.336 ERROR 18688 --- [pool-1-thread-15] o.h.engine.jdbc.spi.SqlExceptionHelper   : Table "KEYWORD" not found; SQL statement:
+select keywordvo0_.keyword_seq as keyword_1_0_, keywordvo0_.cnt as cnt2_0_, keywordvo0_.keyword as keyword3_0_ from keyword keywordvo0_ where keywordvo0_.keyword=? [42102-199]
+2019-07-24 23:37:15.155  WARN 18688 --- [pool-1-thread-14] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 42102, SQLState: 42S02
+2019-07-24 23:37:15.339 ERROR 18688 --- [pool-1-thread-14] o.h.engine.jdbc.spi.SqlExceptionHelper   : Table "KEYWORD" not found; SQL statement:
+select keywordvo0_.keyword_seq as keyword_1_0_, keywordvo0_.cnt as cnt2_0_, keywordvo0_.keyword as keyword3_0_ from keyword keywordvo0_ where keywordvo0_.keyword=? [42102-199]
+2019-07-24 23:37:15.155  WARN 18688 --- [pool-1-thread-11] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 42102, SQLState: 42S02
+2019-07-24 23:37:15.339 ERROR 18688 --- [pool-1-thread-11] o.h.engine.jdbc.spi.SqlExceptionHelper   : Table "KEYWORD" not found; SQL statement:
+select keywordvo0_.keyword_seq as keyword_1_0_, keywordvo0_.cnt as cnt2_0_, keywordvo0_.keyword as keyword3_0_ from keyword keywordvo0_ where keywordvo0_.keyword=? [42102-199]
+2019-07-24 23:37:15.155  WARN 18688 --- [pool-1-thread-6] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 42102, SQLState: 42S02
+2019-07-24 23:37:15.340 ERROR 18688 --- [pool-1-thread-6] o.h.engine.jdbc.spi.SqlExceptionHelper   : Table "KEYWORD" not found; SQL statement:
+select keywordvo0_.keyword_seq as keyword_1_0_, keywordvo0_.cnt as cnt2_0_, keywordvo0_.keyword as keyword3_0_ from keyword keywordvo0_ where keywordvo0_.keyword=? [42102-199]
+2019-07-24 23:37:15.135  WARN 18688 --- [pool-1-thread-9] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 42102, SQLState: 42S02
+2019-07-24 23:37:15.342 ERROR 18688 --- [pool-1-thread-9] o.h.engine.jdbc.spi.SqlExceptionHelper   : Table "KEYWORD" not found; SQL statement:
+select keywordvo0_.keyword_seq as keyword_1_0_, keywordvo0_.cnt as cnt2_0_, keywordvo0_.keyword as keyword3_0_ from keyword keywordvo0_ where keywordvo0_.keyword=? [42102-199]
+2019-07-24 23:37:15.334  INFO 18688 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-07-24 23:38:05.795  WARN 19192 --- [main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/moon/.gradle/caches/modules-2/files-2.1/org.json/json/20180813/8566b2b0391d9d4479ea225645c6ed47ef17fe41/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/moon/.gradle/caches/modules-2/files-2.1/com.vaadin.external.google/android-json/0.0.20131108.vaadin1/fa26d351fe62a6a17f5cda1287c1c6110dec413f/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2019-07-24 23:38:05.811  INFO 19192 --- [main] com.msh.bookbank.repository.TrafficTest  : Starting TrafficTest on DESKTOP-FF54HTE with PID 19192 (started by moon in C:\Users\moon\git\repository\bookbank)
+2019-07-24 23:38:05.812  INFO 19192 --- [main] com.msh.bookbank.repository.TrafficTest  : No active profile set, falling back to default profiles: default
+2019-07-24 23:38:06.482  INFO 19192 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-24 23:38:06.612  INFO 19192 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 118ms. Found 3 repository interfaces.
+2019-07-24 23:38:07.000  INFO 19192 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2828e370] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-24 23:38:07.211  INFO 19192 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-07-24 23:38:07.414  INFO 19192 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-07-24 23:38:07.504  INFO 19192 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-24 23:38:07.573  INFO 19192 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-07-24 23:38:07.575  INFO 19192 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-07-24 23:38:07.718  INFO 19192 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-07-24 23:38:08.033  INFO 19192 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-07-24 23:38:09.129  INFO 19192 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-24 23:38:11.300  INFO 19192 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/css/**'], []
+2019-07-24 23:38:11.301  INFO 19192 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/js/**'], []
+2019-07-24 23:38:11.302  INFO 19192 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/image/**'], []
+2019-07-24 23:38:11.302  INFO 19192 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/vendor/**'], []
+2019-07-24 23:38:11.302  INFO 19192 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/console/**'], []
+2019-07-24 23:38:11.461  INFO 19192 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@57c6feea, org.springframework.security.web.context.SecurityContextPersistenceFilter@4cd7d5e1, org.springframework.security.web.header.HeaderWriterFilter@7e77678c, org.springframework.security.web.csrf.CsrfFilter@667797f, org.springframework.security.web.authentication.logout.LogoutFilter@4ab66127, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4c6bba7d, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6a6d1ff3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@46b6701e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@77ce88c4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3b57f915, org.springframework.security.web.session.SessionManagementFilter@5f0677f3, org.springframework.security.web.access.ExceptionTranslationFilter@4fd7b79, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@d504137]
+2019-07-24 23:38:13.807  INFO 19192 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-24 23:38:13.889  WARN 19192 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-24 23:38:16.898  INFO 19192 --- [main] com.msh.bookbank.repository.TrafficTest  : Started TrafficTest in 11.337 seconds (JVM running for 12.077)
+2019-07-24 23:38:17.016  INFO 19192 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-07-24 23:38:17.553  INFO 19192 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-24 23:38:17.702  INFO 19192 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-07-24 23:38:17.719  INFO 19192 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-07-24 23:38:17.722  INFO 19192 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

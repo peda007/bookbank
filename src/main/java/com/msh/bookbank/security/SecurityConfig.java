@@ -30,7 +30,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 		web.ignoring().antMatchers(	"/css/**",
 									"/js/**",
 									"/image/**",
-									"/vendor/**");
+									"/vendor/**","/console/**");
 	}
 	
 	@Override
