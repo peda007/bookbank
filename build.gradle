@@ -36,6 +36,7 @@ repositories {
 
 war {
 	baseName = 'spring-boot-war'
+	archiveName = 'bookbank.war'
 }
 
 dependencies {
