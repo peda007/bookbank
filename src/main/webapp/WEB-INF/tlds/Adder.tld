@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<taglib version="2.1"
+    xmlns="http://java.sun.com/xml/ns/j2ee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd" >
+ 
+    <tlib-version>2.1</tlib-version>
+    <short-name>add</short-name>
+    <uri>tlds/Adder.tld</uri>
+ 
+ 	<function>
+        <description>두 값이 같으면 string 추가</description>
+        <name>ifSame</name>
+        <function-class>com.msh.bookbank.util.Adder</function-class>
+        <function-signature>java.lang.String ifSame(java.lang.String, java.lang.String, java.lang.String)</function-signature>
+    </function>
+    
+</taglib>

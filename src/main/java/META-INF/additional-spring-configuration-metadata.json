@@ -1,0 +1,12 @@
+{"properties": [
+  {
+    "name": "api.page-size",
+    "type": "java.lang.String",
+    "description": "A description for 'portal.performance-check'"
+  },
+  {
+    "name": "api.connection-timeout",
+    "type": "java.lang.String",
+    "description": "A description for 'portal.performance-check'"
+  }
+]}
