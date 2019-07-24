@@ -3,6 +3,7 @@ plugins {
 	id 'java'
 }
 
+apply plugin: 'war'
 apply plugin: 'io.spring.dependency-management'
 
 group = 'com.msh'
@@ -14,6 +15,12 @@ configurations {
 	runtimeClasspath {
 		extendsFrom developmentOnly
 	}
+}
+
+
+
+war {
+    baseName = 'bookbank'
 }
 
 repositories {
