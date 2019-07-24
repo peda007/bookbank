@@ -1,25 +1,11 @@
-buildscript {
-	ext {
-		springBootVersion = '2.1.6.RELEASE'
-	}
-	repositories {
-		mavenCentral()
-	}
-	dependencies {
-		classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
-		classpath("io.spring.gradle:dependency-management-plugin:0.5.1.RELEASE")
-	}
-}
-
 plugins {
 	id 'org.springframework.boot' version '2.1.6.RELEASE'
 	id 'java'
 }
 
-apply plugin: 'war'
 apply plugin: 'io.spring.dependency-management'
 
-group = 'com.msh.bookbank'
+group = 'com.msh'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '1.8'
 
@@ -32,10 +18,6 @@ configurations {
 
 repositories {
 	mavenCentral()
-}
-
-war {
-	baseName = 'spring-boot-war'
 }
 
 dependencies {

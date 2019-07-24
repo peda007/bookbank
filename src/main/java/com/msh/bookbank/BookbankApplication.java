@@ -11,13 +11,8 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
  * @since 2019.07.20.
  */
 @SpringBootApplication
-public class BookbankApplication extends SpringBootServletInitializer  {
+public class BookbankApplication {
 
-	@Override 
-	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-		return application.sources(BookbankApplication.class); 
-	}
-	
 	public static void main(String[] args) {
 		SpringApplication.run(BookbankApplication.class, args);
 	}
