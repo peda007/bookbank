@@ -18,6 +18,7 @@ public class BookbankApplication extends SpringBootServletInitializer  {
 		return application.sources(BookbankApplication.class); 
 	}
 	
+	// 메인
 	public static void main(String[] args) {
 		SpringApplication.run(BookbankApplication.class, args);
 	}
